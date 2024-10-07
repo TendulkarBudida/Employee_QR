@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e0f2ff; /* Light blue background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+/* Container Styles */
+.container {
+  background-color: #cef7fd; /* White container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box-shadow */
+  border-radius: 10px; /* Rounded corners */
+  padding: 30px;
+  max-width: 1200px;
+  width: 90%; /* Increase width */
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 20px;
+  flex: 1; /* Allow sections to grow within container */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Card Styles (if applicable) */
+.card {
+  background-color: #fff; /* White card background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box-shadow */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Text Styles */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333; /* Text color for contrast */
+  text-align: center;
+}
+
+/* Employee Details Styles (if applicable) */
+.employee-details {
+  /* Use clear and descriptive class names for better maintainability */
+}
+
+.employee-details .detail {
+  margin-bottom: 10px;
+  display: flex; /* Use flexbox for details layout */
+  align-items: center;
+}
+
+.employee-details .detail strong {
+  color: #44c7e7;
+  display: inline-block;
+  width: 150px; /* Adjust width as needed */
+  font-weight: bold;
+  align-items: end;
+}
+
+.employee-details .detail span {
+  color: #71abbd;
+  flex: 1; /* Allow details to expand */
+}
+
+.employee-details .highlight {
+  color: #33b5e5; /* Light blue highlight */
+}
+
+/* Form Styles (if applicable) */
+form {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  margin-top: 10px;
+}
+
+button {
+  background-color: #33b5e5; /* Light blue button */
+  color: #fff; /* White text */
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #2e9ebe; /* Darker blue on hover */
+}
+
+/* QR Code Reader Styling */
+#my-qr-reader {
+  border: 2px solid #ddd; /* Thin border for QR code reader */
+  padding: 80px;
+  border-radius: 5px;
+  width: 100%; /* Ensure the QR reader takes full width */
+  max-width: 600px; /* Increase max-width for larger display */
+  margin: 0 auto; /* Center the QR reader */
+}
+
+/* Additional Considerations */
+/* You can add styles for specific elements like links, inputs, etc. */

@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Suomi Type Foundry', sans-serif; 
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-section, .info-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.login-section {
+    background-color: #ffffff;
+}
+
+.login-box {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    width: 200px; 
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #0a0a0a;
+    font-weight: bold; }
+
+p {
+    margin-bottom: 20px;
+    color: #242323;
+    font-weight: bold;
+}
+.info-box h2{
+    color : white;}
+.info-box p{
+        color : white;}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+
+.input-icon img {
+    width: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    padding-left: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.options a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.options a:hover {
+    color: #0056b3;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; 
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-text {
+    margin-top: 20px;
+}
+
+.info-section {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+}
+
+.info-box {
+    max-width: 400px;
+    width: 100%;
+}
+
+.info-box h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold; 
+}
+
+.icons img {
+    max-width: 400px; 
+    margin-top: 20px; 
+}
+.login-box p {
+    margin-top: 30px; 
+}
+
